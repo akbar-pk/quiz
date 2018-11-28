@@ -1,0 +1,162 @@
+body, html {
+    font: 1em/1.75 "Lato",Helvetica,Arial,sans-serif;
+    background: #efefef;
+    position: relative;
+    color: #555;
+}
+
+/*********************** INTEL / LENOVO ENQUIRY FORM STYLES **************************/
+
+/* Intel Brand Logo */
+#intel_brand_holder {
+    width: 252px;
+    height: 92px;
+    padding: 10px;
+}
+#intel_brand_holder img {
+    max-width: 100%;
+    height: auto;
+    transform: unset;
+    object-fit: unset;
+    transition: unset;
+    min-height: unset;
+}
+@media (max-width: 992px) {
+    #intel_brand_holder {
+        width: 200px;
+        height: 68px;
+        bottom: 22px;
+        right: 20px;
+    }
+}
+/* Intel Brand Logo END*/
+
+/* Intel Footer */
+#intel_footer_section.sec-gap {
+    padding: 50px 0 30px;
+}
+#intel_footer_section.footer-sec {
+    background-color: #000000;
+    color: #fff;
+}
+#intel_footer_section .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#intel_footer_section .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#intel_footer_section .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#intel_footer_section .div-block {
+    float: left;
+    width: 100%;
+}
+#intel_footer_section .footer-intel-bg img {
+    width: 130px;
+    float: left;
+}
+#intel_footer_section .footer-intel-bg p {
+    font-weight: bold;
+    margin-top: 14px;
+    float: left;
+}
+#intel_footer_section .clearfix {
+    clear: both;
+}
+#intel_footer_section .footer-copyright {
+    margin-top: 20px;
+}
+
+/* Intel Footer END */
+
+/* Lenovo enquiry form */
+
+#enquire_holder {
+    width: 320px;
+    margin-top: 11px;
+}
+#enquire_holder form {
+    max-width: 320px;
+    margin: auto;
+    background-color: #00000042;
+    padding: 20px 20px 20px;
+}
+#enquire_holder .own-legend {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+#enquire_holder .input-container {
+    background: #f2f2f2;
+    border: none;
+    margin-bottom: 13px;
+    width: 100%;
+    padding: 5px 0px 5px 5px;
+    overflow: hidden;
+}
+#enquire_holder .input-container img {
+    width: 18px;
+    margin-right: 10px;
+}
+#enquire_holder .input-container input {
+    background: #f2f2f2;
+    border: none;
+    display: inline-block;
+    width: 85%;
+}
+#enquire_holder .input-container img, 
+#enquire_holder .input-container input {
+    display: inline-block;
+    vertical-align: middle;
+}
+#enquire_holder .input-container input:focus {
+    border-bottom: 1px solid rgba(42, 42, 42, 0.46);
+    outline: none;
+}
+#enquire_holder input, #enquire_holder select, #enquire_holder textarea {
+    font-size: 1.1rem;
+}
+#enquire_holder .time-to-call select {
+    width: 100%;
+    background: 0 0;
+    border: none!important;
+    color: #656969;
+}
+#enquire_holder .enquiry-form .btn {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #ff5e02;
+    color: #fff;
+    background-color: #ff5e02;
+}
+#enquire_holder .btn{
+    display:inline-block;
+    padding:6px 12px;
+    margin-bottom:0;
+    font-size:14px;
+    font-weight:400;
+    line-height:1.42857143;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    background-image:none;
+    border:1px solid transparent;
+    border-radius:4px
+}
+/* Lenovo enquiry form END*/
+/*********************** INTEL / LENOVO ENQUIRY FORM STYLES END **************************/
